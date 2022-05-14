@@ -14,7 +14,7 @@ export const NavItems = [
     link: "insights"
   },
   // {
-  //   title: "ML Generated Pokémon?",
-  //   link: "gan-pokemon"
+  //   title: "ML Pokémon",
+  //   link: "ml-pokemon"
   // },
 ];

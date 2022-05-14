@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import History from "./History";
 import Insights from "./Insights";
 import NotFound from "./components/NotFound";
+import MlPokemon from "./components/MlPokemon";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route path="/history" element={<History />} /> */}
           <Route path="/insights" element={<Insights />} />
-          {/* <Route path="/gan-pokemon" /> */}
+          {/* <Route path="/ml-pokemon" element={<MlPokemon />} /> */}
           <Route path="*"element={<NotFound/>} />
         </Routes>
       </Router>
