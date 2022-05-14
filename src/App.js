@@ -9,7 +9,6 @@ import NotFound from "./components/NotFound";
 function App() {
   return (
     <>
-      <Router>
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,7 +17,6 @@ function App() {
           {/* <Route path="/ml-pokemon" element={<MlPokemon />} /> */}
           <Route path="*"element={<NotFound/>} />
         </Routes>
-      </Router>
     </>
   );
 }

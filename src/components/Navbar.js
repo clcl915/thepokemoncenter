@@ -6,9 +6,7 @@ export default function () {
   return (
     <header>
       <div className="nav-area">
-        <a href="/#" className="logo">
-          The Pokémon Center
-        </a>
+        <Link to="/">The Pokémon Center</Link>
         <nav>
           <ul className="menus">
             {NavItems.map((item, index) => {

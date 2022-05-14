@@ -383,9 +383,9 @@ export default function Insights() {
   }
   return (
     <>
-      <h2>
+      {/* <h2>
         <u>Insights</u>
-      </h2>
+      </h2> */}
       {/* <div className="vizHighlight">
         <div className="vizDescription">
           <h2>Type Color Outliers</h2>
@@ -401,6 +401,7 @@ export default function Insights() {
         <div>
           <div className="shapevizContent">
             <div className="vizContent intro">
+              {/* <img src={body1}></img> */}
               <h2>Pokemon Shapes</h2>
               <p>
                 After each new generation release, I always wonder the same

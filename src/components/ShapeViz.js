@@ -2,25 +2,29 @@ import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import useFetch from "../useFetch";
 import { create } from "d3";
+import body1 from '../images/body-01-ball.png'; import body2 from "../images/body-02-squiggle.png"; import body3 from "../images/body-03-fish.png"; import body4 from "../images/body-04-arms.png"; import body5 from "../images/body-05-blob.png"; import body6 from "../images/body-06-upright.png"; import body7 from "../images/body-07-legs.png"; import body8 from "../images/body-08-quadruped.png"; import body9 from "../images/body-09-wings.png"; import body10 from "../images/body-10-tentacles.png"; import body11 from "../images/body-11-heads.png"; import body12 from "../images/body-12-humanoid.png"; import body13 from "../images/body-13-bug-wings.png"; import body14 from "../images/body-14-armor.png";
 
 export default function ShapeViz({ currentContent,currentShift }) {
   const svgRef = useRef();
+  // const shapeSprites = [
+  //   "https://archives.bulbagarden.net/media/upload/thumb/1/17/Body01.png/32px-Body01.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Body02.png/32px-Body02.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Body03.png/32px-Body03.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Body04.png/32px-Body04.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/d/da/Body05.png/32px-Body05.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/8/88/Body06.png/32px-Body06.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Body07.png/32px-Body07.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Body08.png/32px-Body08.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/9/98/Body09.png/32px-Body09.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/9/97/Body10.png/32px-Body10.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/3/36/Body11.png/32px-Body11.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/4/45/Body12.png/32px-Body12.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/0/09/Body13.png/32px-Body13.png",
+  //   "https://archives.bulbagarden.net/media/upload/thumb/4/4b/Body14.png/32px-Body14.png",
+  // ];
   const shapeSprites = [
-    "https://archives.bulbagarden.net/media/upload/thumb/1/17/Body01.png/32px-Body01.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Body02.png/32px-Body02.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Body03.png/32px-Body03.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Body04.png/32px-Body04.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/d/da/Body05.png/32px-Body05.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/8/88/Body06.png/32px-Body06.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Body07.png/32px-Body07.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Body08.png/32px-Body08.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/9/98/Body09.png/32px-Body09.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/9/97/Body10.png/32px-Body10.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/3/36/Body11.png/32px-Body11.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/4/45/Body12.png/32px-Body12.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/0/09/Body13.png/32px-Body13.png",
-    "https://archives.bulbagarden.net/media/upload/thumb/4/4b/Body14.png/32px-Body14.png",
-  ];
+    body1, body2, body3, body4, body5, body6, body7, body8, body9, body10, body11, body12, body13, body14
+  ]
   const [error, setError] = useState(null);
   const [isLoading, setLoading] = useState(true);
   const [shapes, setShapes] = useState([]);
