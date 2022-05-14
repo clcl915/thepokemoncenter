@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import History from "./History";
 import Insights from "./Insights";
 import NotFound from "./components/NotFound";
-import MlPokemon from "./components/MlPokemon";
 
 function App() {
   return (
