@@ -22,7 +22,7 @@ When researching on which dataset I should use, I eventually decided to use the 
 
 I spent a good number of hours on just extracting the data I needed. Originally I had 2 visualization ideas. 
 
-1. A pokemon shape analysis
+1. A Pokemon shape analysis
     I wanted to visual the various Pokemon shapes. There was a day where I noticed that there were so many dog-like or bird-like Pokemon. I remember a lot of blob shaped Pokemon as well. So, I wanted to visual the most commonly used and least commonly used Pokemon shapes. 
 
 2. A type-color outlier visualization. 

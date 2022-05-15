@@ -9,9 +9,9 @@ export default function Home() {
   const [isLoading, setLoading] = useState(true);
   const [allPokemon, setPokemon] = useState([]);
   const [loadMore, setLoadMore] = useState(
-    "https://pokeapi.co/api/v2/pokemon/?limit=30"
+    "https://pokeapi.co/api/v2/pokemon/?limit=50"
   );
-  const [next30, setnext30] = useState();
+  const [next50, setnext50] = useState();
 
   const getPokemons = async () => {
     try {
@@ -23,10 +23,9 @@ export default function Home() {
 
       const data = await res.data;
       // console.log("line22 ", data)
-      setnext30(data.next);
+      setnext50(data.next);
       setLoading(false);
       setError(null);
-      setnext30(data.next);
 
       function createPokemonObject(result) {
         result.forEach(async (pokemon) => {
@@ -57,7 +56,7 @@ export default function Home() {
     enter: function (el) {
       el.classList.add('entered');
       console.log("entered")
-      setLoadMore(next30)
+      setLoadMore(next50)
     }
   });
   

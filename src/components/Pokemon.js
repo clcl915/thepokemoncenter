@@ -7,7 +7,7 @@ export default function Pokemon({ id, name, frontImage, shinyImage, type }) {
       <img
         src={frontImage}
         alt={name}
-        className={id % 15 == 0 ? "halfOfShown" : ""}
+        className={id % 25 == 0 ? "halfOfShown" : ""}
         onMouseOver={(e) => (e.currentTarget.src = shinyImage)}
         onMouseOut={(e) => (e.currentTarget.src = frontImage)}
       ></img>

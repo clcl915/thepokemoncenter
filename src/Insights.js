@@ -402,22 +402,22 @@ export default function Insights() {
           <div className="shapevizContent">
             <div className="vizContent intro">
               {/* <img src={body1}></img> */}
-              <h2>Pokemon Shapes</h2>
+              <h2>Pokémon Shapes</h2>
               <p>
                 After each new generation release, I always wonder the same
                 question:
               </p>
               <p>
-                How do they create so many new Pokemon? How can they be so
+                How do they create so many new Pokémon? How can they be so
                 creative and come up with such interesting creatures?
               </p>
               <br></br>
               <p>
-                Eventually I noticed that some Pokemon started to look similar
-                in shape, color, and size. For example, the starter Pokemon had
+                Eventually I noticed that some Pokémon started to look similar
+                in shape, color, and size. For example, the starter Pokémon had
                 a good chance of having a bird-like shape. Some of the blob
-                Pokemon started to look similar too. So I wondered, how often do
-                Pokemon shapes get repeated? Do we have a lot of bird-like or dog-like shapes?
+                Pokémon started to look similar too. So I wondered, how often do
+                Pokémon shapes get repeated? Do we have a lot of bird-like or dog-like shapes?
               </p>
               <br></br>
               <p>So ... I decided to visualize it!</p>
@@ -430,11 +430,11 @@ export default function Insights() {
                 <span>
                   <b>189</b>
                 </span>{" "}
-                Pokemon!
+                Pokémon!
               </h3>
-              <p>That's a little over 20% of all Pokemon! The shape of upright Pokemon look similar to dinosaurs, with 2 legs and a tail. </p>
+              <p>That's a little over 20% of all Pokémon! The shape of upright Pokémon look similar to dinosaurs, with 2 legs and a tail. </p>
               <p>
-                Some of these Upright Pokemon include:{" "}
+                Some of these Upright Pokémon include:{" "}
               </p>
               <ul>
                 <li>#4 charmander</li>
@@ -451,11 +451,11 @@ export default function Insights() {
                 <span>
                   <b>167</b>
                 </span>{" "}
-                Pokemon!
+                Pokémon!
               </h3>
-              <p>I assumed that this shape was the most popular, but actually it ranks second accounting for roughly 18% of all Pokemon. There are so many memorable Pokemon from the earlier generations that have this quadruped shape with 4 legs. </p>
+              <p>I assumed that this shape was the most popular, but actually it ranks second accounting for roughly 18% of all Pokémon. There are so many memorable Pokémon from the earlier generations that have this quadruped shape with 4 legs. </p>
               <p>
-                Some of these Quadruped Pokemon include:{" "}
+                Some of these Quadruped Pokémon include:{" "}
               </p>
               <ul>
                 <li>#1 bulbasaur</li>
@@ -472,14 +472,14 @@ export default function Insights() {
                 <span>
                   <b>136</b>
                 </span>{" "}
-                Pokemon!
+                Pokémon!
               </h3>
               <p>Human shape?</p>
               <p>
-                I guess the creators got inspired by us! Pokemon with
+                I guess the creators got inspired by us! Pokémon with
                 the humanoid shape have two legs but no tail. Although most don't look like humans, most do look like they can walk and run like us! 
               </p>
-              <p>Some of these Humanoid Pokemon include:</p>
+              <p>Some of these Humanoid Pokémon include:</p>
               <ul>
                 <li>#39 jigglypuff</li>
                 <li>#122 mr.mime</li>
@@ -495,11 +495,11 @@ export default function Insights() {
                 <span>
                   <b>80</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
-              <p>The flying Pokemon!</p>
-              <p>Almost all of these Wing shape Pokemon are flying types! This categories holds the bats and the birds of the Pokemon world. </p>
-              <p>Some of these Wings Pokemon include:</p>
+              <p>The flying Pokémon!</p>
+              <p>Almost all of these Wing shape Pokémon are flying types! This categories holds the bats and the birds of the Pokémon world. </p>
+              <p>Some of these Wings Pokémon include:</p>
               <ul>
                 <li>#41 zubat</li>
                 <li>#42 golbat</li>
@@ -515,13 +515,13 @@ export default function Insights() {
                 <span>
                   <b>47</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>Geodude!</p>
               <p>
-                These Arms Pokemon aren't your typical Pokemon. Most are Fairy types and Ghost types. They don't have a body, but they have a big head and strong arms. 
+                These Arms Pokémon aren't your typical Pokémon. Most are Fairy types and Ghost types. They don't have a body, but they have a big head and strong arms. 
               </p>
-              <p>Some of these Arms Pokemon include:</p>
+              <p>Some of these Arms Pokémon include:</p>
               <ul>
                 <li>#74 geodude</li>
                 <li>#89 muk</li>
@@ -537,13 +537,13 @@ export default function Insights() {
                 <span>
                   <b>41</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>only a head!</p>
               <p>
-                These balls have only a head! No body, arms, or legs! This category is where you will find the electric ball pokemon and the grass cacoon pokemon.  
+                These balls have only a head! No body, arms, or legs! This category is where you will find the electric ball Pokémon and the grass cacoon Pokémon.  
               </p>
-              <p>Some of these Ball Pokemon include:</p>
+              <p>Some of these Ball Pokémon include:</p>
               <ul>
                 <li>#101 electrode</li>
                 <li>#90 shellder</li>
@@ -559,13 +559,13 @@ export default function Insights() {
                 <span>
                   <b>40</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
-              <p>the insectoid body pokemon</p>
+              <p>the insectoid body Pokémon</p>
               <p>
-                Any pokemon with a body that looks like an insect is here! A ton of bug types fall into this category. Surprisingly, there's quite a number of insect looking pokemon out there
+                Any Pokémon with a body that looks like an insect is here! A ton of bug types fall into this category. Surprisingly, there's quite a number of insect looking Pokémon out there
               </p>
-              <p>Some of these Armor Pokemon include:</p>
+              <p>Some of these Armor Pokémon include:</p>
               <ul>
                 <li>#10 caterpie</li>
                 <li>#13 weedle</li>
@@ -581,13 +581,13 @@ export default function Insights() {
                 <span>
                   <b>39</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>the water types!</p>
               <p>
-                Most of the water types are in the fish category. Pokemon's category is fish but actually all pokemon with fins are here. We can find Magikarp, Seel, and some other water types here. 
+                Most of the water types are in the fish category. Pokémon's category is fish but actually all Pokémon with fins are here. We can find Magikarp, Seel, and some other water types here. 
               </p>
-              <p>Some of these Fish Pokemon include:</p>
+              <p>Some of these Fish Pokémon include:</p>
               <ul>
                 <li>#86 seel</li>
                 <li>#129 magikarp</li>
@@ -603,13 +603,13 @@ export default function Insights() {
                 <span>
                   <b>38</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>Wobbuffettt</p>
               <p>
-               The Blobs contain pokemon with a head and a base. Team Rocket's iconic Wobbuffet is used as the icon! 
+               The Blobs contain Pokémon with a head and a base. Team Rocket's iconic Wobbuffet is used as the icon! 
               </p>
-              <p>Some of these Blob Pokemon include:</p>
+              <p>Some of these Blob Pokémon include:</p>
               <ul>
                 <li>#202 wobbuffet</li>
                 <li>#230 kingdra</li>
@@ -626,13 +626,13 @@ export default function Insights() {
                 <span>
                   <b>37</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>The long bodies</p>
               <p>
-                Surprisingly there are quite the number of long bodied pokemon. This contains the long rock Pokemon Onix and the snake Pokemon Arbok
+                Surprisingly there are quite the number of long bodied Pokémon. This contains the long rock Pokémon Onix and the snake Pokémon Arbok
               </p>
-              <p>Some of these Squiggle Pokemon include:</p>
+              <p>Some of these Squiggle Pokémon include:</p>
               <ul>
                 <li>#24 arbok</li>
                 <li>#95 onix</li>
@@ -648,13 +648,13 @@ export default function Insights() {
                 <span>
                   <b>23</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>a lot of legs</p>
               <p>
-                These Pokemon have more than 4 legs! Find the squids and octopus here!
+                These Pokémon have more than 4 legs! Find the squids and octopus here!
               </p>
-              <p>Some of these Tentacles Pokemon include:</p>
+              <p>Some of these Tentacles Pokémon include:</p>
               <ul>
                 <li>#72 tentacool</li>
                 <li>#455 carnivine</li>
@@ -670,13 +670,13 @@ export default function Insights() {
                 <span>
                   <b>23</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>head + legs</p>
               <p>
-                A head, legs, but no arms! This category contains a lot of small sized Pokemon like Torchic and Oddish! The cuties!
+                A head, legs, but no arms! This category contains a lot of small sized Pokémon like Torchic and Oddish! The cuties!
               </p>
-              <p>Some of these Legs Pokemon include:</p>
+              <p>Some of these Legs Pokémon include:</p>
               <ul>
                 <li>#43 oddish</li>
                 <li>#103 exeggutor</li>
@@ -692,13 +692,13 @@ export default function Insights() {
                 <span>
                   <b>20</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
               <p>as the name suggests ... bugs</p>
               <p>
                 If you can think of a bug type, it's probably in this Bug-Wings category! The butterflies, bees, scythers, moths! Majority are Bug Type and/or Flying type. 
               </p>
-              <p>Some of these Bug-Wings Pokemon include:</p>
+              <p>Some of these Bug-Wings Pokémon include:</p>
               <ul>
                 <li>#12 butterfree</li>
                 <li>#123 scyther</li>
@@ -714,13 +714,13 @@ export default function Insights() {
                 <span>
                   <b>16</b>
                 </span>{" "}
-                Pokemon
+                Pokémon
               </h3>
-              <p>finally the multiple heads pokemon</p>
+              <p>finally the multiple heads Pokémon</p>
               <p>
-                There are only 16 Pokemon out of the 896 that have more than 1 head! There are the duos and trios of the Pokemon world.
+                There are only 16 Pokémon out of the 896 that have more than 1 head! There are the duos and trios of the Pokémon world.
               </p>
-              <p>Some of these Heads Pokemon include:</p>
+              <p>Some of these Heads Pokémon include:</p>
               <ul>
                 <li>#51 dugtrio</li>
                 <li>#82 magneton</li>
@@ -731,8 +731,8 @@ export default function Insights() {
           </div>
           <div className="shapevizContent">
             <div className="vizContent ">
-              <p>After visualizing all 896 Pokemon by shape, I definitely had the wrong assumptions. I thought there was a lot of dog-like and bird-like pokemon. But in actuality, the most common shape is the Upright shape (2 legs and a tail). Dog-like or 4 legged Pokemon came in a close second. Bird-like or wingged Pokemon came in 4th. </p>
-              <p>It's interesting to see all the Pokemon visualized to just it's general shape. Each Pokemon's individual shape, size, and color draws in the attention that it's often overlooked that the creators are using similar outlines but tweaking them a little bit. </p>
+              <p>After visualizing all 896 Pokémon by shape, I definitely had the wrong assumptions. I thought there was a lot of dog-like and bird-like Pokémon. But in actuality, the most common shape is the Upright shape (2 legs and a tail). Dog-like or 4 legged Pokémon came in a close second. Bird-like or wingged Pokémon came in 4th. </p>
+              <p>It's interesting to see all the Pokémon visualized to just it's general shape. Each Pokémon's individual shape, size, and color draws in the attention that it's often overlooked that the creators are using similar outlines but tweaking them a little bit. </p>
             </div>
           </div>
         </div>

@@ -95,7 +95,7 @@ export default function ShapeViz({ currentContent,currentShift }) {
       notCurrent.each(function (d, i) {
         d3.select(this).transition().delay(100).duration(1000).attr("opacity", 0.2);
       });
-      d3.select(svgRef.current).transition().delay(100).duration(2500).attr("transform",(d,i)=>{
+      d3.select(svgRef.current).selectAll(".allShapeContainer").transition().delay(100).duration(2500).attr("transform",(d,i)=>{
         return "translate(0,"+currentShift+")"
       });
       // if (currentContent == 'humanoid' || currentContent =='wings'|| currentContent =='arms'){
@@ -158,7 +158,7 @@ export default function ShapeViz({ currentContent,currentShift }) {
       .attr("height", h)
       // .style("background-color", "fcfcfc")
       .attr("fill", "orange")
-      .style("float", "right");
+      .style("float", "right").append("g").attr("class","allShapeContainer");
     const tooldiv = d3
       .select("#shapeViz")
       .append("div")
